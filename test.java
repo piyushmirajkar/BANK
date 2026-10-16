@@ -1,10 +1,11 @@
-import java.util.*;
-import java.util.concurrent.ThreadLocalRandom;
+class test {
+    public static void main(String arg[]) {
 
-public class test {
-    public static void main(String[] args) {
-        int r = ThreadLocalRandom.current().nextInt(10000, 100000);
-
-        System.out.println(r);
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
     }
 }
